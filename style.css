@@ -1,0 +1,43 @@
+body {
+  background: #000;
+  color: #fff;
+  padding: 25px;
+  font-family: sans-serif;
+}
+
+table, td {
+  margin:auto;
+  border: 3px solid white;
+  border-collapse: collapse;
+}
+
+td {
+    vertical-align: top;
+    align-items: top;
+}
+
+a {
+    color: white;
+}
+
+a:visited {
+    color: lightblue;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+div p {
+    width: 80%;
+    margin: auto;
+    color: white;
+    border-radius: 30px;
+  background-color: #404040; /* light gray background */
+  border: 1px solid #ccc;    /* subtle border */
+  padding: 10px;             /* some inner space */
+  font-family: monospace;    /* monospaced font for code */
+  white-space: pre;          /* preserve formatting, like line breaks and spaces */
+   overflow-x: auto; 
+
+}
