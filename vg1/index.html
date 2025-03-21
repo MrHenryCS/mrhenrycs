@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Video Tame 1 Games</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1" >
+        <link href="style.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <div style="text-align: center;">
+            <img src="./img/cougar.png"/>
+            <h1>Intro to Programming and Video Games</h1>
+            <h2>Mr. Henry Rom 211</h2>
+        </div>
+        
+        <p>We have been hard at work learning the <a href="https://godotengine.org/" target="_blank">Godot game engine</a> and coding in a language similar to Python. The games below were all made by by students.</p>
+
+        <p>Games that were made following a tutorial will only have one playable version as they will nearly all be the same.  Games that allowed student choice in design will have many versions to play.</p>
+        
+        <p>If this looks like fun and you want to learn to code join me next year!</p>
+        
+        <div id="code-block" >
+            <p>
+<span style="color: yellow;">@onready</span> <span style="color: orange;">var</span> Player = <span style="color: #0088ff;">preload</span>(<span style="color: yellow;">"res://interested_student.tscn"</span>)
+
+<span style="color: orange;">func</span> _ready():
+    <span style="color: orange;">var</span> new_player = Player.<span style="color: #0088ff;">instansiate</span>()
+    new_player.<span style="color:lightblue;">position</span> = <span style="color: yellow;">"Room 211"</span>
+    new_player.<span style="color:#0088ff;">create_games</span>() 
+    <span style="color: #0088ff;">print</span>(<span style="color: yellow;">"This is fun!"</span>)
+        </p>
+        </div>
+        
+        <hr>
+        <h2 style="text-align: center">Click any of the pictures below to play the game</h2>
+
+        <table style="width: 95%;text-align: center;">
+            <tbody>
+            <tr>
+                <td>
+                    <!-- Update links to MrHenryCS.github.io -->
+                    <a href="https://www.shawnhenry.org/school/doughnuts/" target="_blank"><img src="./img/donuts.png" width=100%></a>
+                    <p>Eat the Doughnut</p>
+                </td>
+                <td>
+                    <a href="https://www.shawnhenry.org/school/keyboard/" target="_blank"><img src="./img/keyboard.png"width=100%/></a>
+                    <p>Keyboard</p>
+                </td>
+                <td>
+                    <a href="https://www.shawnhenry.org/school/wack-a-mole/" target="_blank"><img src="./img/mole.png"width=100%/></a>
+                    <p>Whack-a-Mole</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="https://www.shawnhenry.org/school/wack-a-mole/" target="_blank"><img src="./img/blades.png"width=100%/></a>
+                    <p>Dodge the Blades</p>
+                </td>
+                <td>
+                    <a href="https://www.shawnhenry.org/school/wack-a-mole/" target="_blank"><img src="./img/space.png"width="100%"></a>
+                    <p>Space Shooter</p>
+                    </td>
+                <td>
+                    <a href="https://www.shawnhenry.org/school/wack-a-mole/" target="_blank"><img src="./img/pong.png"width=100%/></a>
+                    <p>Pong</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="https://www.shawnhenry.org/school/wack-a-mole/" target="_blank"><img src="./img/mole.png"width=100%/></a>
+                    <p>Brick Breaker</p>
+                </td>
+                <td>
+                    <a href="https://www.shawnhenry.org/school/wack-a-mole/" target="_blank"><img src="./img/mole.png"width=100%/></a>
+                    <p>Clicker Game</p>
+                </td>
+                <td>
+                    <a href="./scroller/index.html"><img src="./img/mole.png"width=100%/></a>
+                    <p>Infinite Scroller</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="./minigolf/index.html"><img src="./img/golf.png"width=100%/></a>
+                    <p>Minigolf</p>
+                </td>
+                <td>
+                    <a href="https://www.shawnhenry.org/school/wack-a-mole/"><img src="./img/mole.png"width=100%/></a>
+                    <p>Vampire Survivor Like</p>
+                </td>
+                <td>
+                    <a href="https://www.shawnhenry.org/school/wack-a-mole/"><img src="./img/mole.png"width=100%/></a>
+                    <p>2D Zelda Like</p>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+
+    </body>
+</html>
